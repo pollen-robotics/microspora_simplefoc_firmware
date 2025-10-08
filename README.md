@@ -12,13 +12,18 @@ It can be used for torque, velocity and position control.
 
 ## Requirements
 
-You'll need to have [PlatformIO](https://platformio.org/) installed and to download the SimpleFOC, as well as the SimpleFOC-drivers library into your `lib` folder. 
+You'll need to have [PlatformIO](https://platformio.org/) installed and to download the SimpleFOC into your `lib` folder. 
 
 I'd suggest you to do it like this:
 
 ```
 cd your_project_folder/lib
 git clone https://github.com/simplefoc/Arduino-FOC.git
-git clone https://github.com/simplefoc/SimpleFOC-drivers.git
+cd Arduino-FOC
+git checkout dev
 ```
+
+> You'll need the `dev` branch until the next release `2.3.6`. Once it is out, you can just add `askuric/Arduino FOC` to your `lib_deps` in `platformio.ini` and skip this step.
+
+And you're done, you can start developing your project!
 
