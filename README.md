@@ -3,7 +3,7 @@ Microspora board firmware based on SimpleFOC using platformIO
 
 <img src="docs/top.png" height="300"><img src="docs/bck.png" height="300">
 
-A template platformIO project for the microspora firmware using SimpleFOC.
+A template platformIO project for the microspora firmware using SimpleFOC. Find the EasyEDA design files for the microspora board here: https://oshwlab.com/the.skuric/microspora-simplefoc-antun
 
 > microspora has been originally developed by [@Rambros](https://github.com/rambros3d) - See [Github](https://github.com/rambros3d/MicroSpora-SimpleFOC) 
 
